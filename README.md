@@ -1,6 +1,6 @@
 # Overview
 
-This project is for Tokopedia senior frontend test. The finished project also can be seen on [https://web-engineering-test.vercel.app/](https://web-engineering-test.vercel.app/). I use [Vercel](https://vercel.com/) to deploy the project.
+This project is for Tokopedia senior frontend test. The finished project also can be seen on [https://anime-list-graphql.vercel.app/](https://anime-list-graphql.vercel.app/). I use [Vercel](https://vercel.com/) to deploy the project.
 
 # Technologies
 
@@ -10,6 +10,8 @@ This project is built with several technologies:
 * [Next JS](https://nextjs.org/)
 * [emotion](https://emotion.sh/docs/introduction)
 * [Apollo graphql](https://www.apollographql.com/)
+* [Jest](https://jestjs.io/)
+* [Testing-library](https://testing-library.com/)
 
 # Usage
 
@@ -36,6 +38,9 @@ yarn run dev
 
 # run linter
 pnpm lint
+
+# run unit test
+pnpm test
 ```
 
 # Directory Structure
